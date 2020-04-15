@@ -15,6 +15,6 @@ myObj = {"Addresses" :[
 ]
 }
 
-console.log(myObj.Addresses[0].ip);
+console.log(myObj.Addresses[2].ip);
 
 
