@@ -14,5 +14,13 @@ ietf-interfaces:interface:
     address:
     - ip: 192.168.0.2
       netmask: 255.255.255.0
-
+ - name: LoopBack0
+   description: LoopBack0
+   enabled: true
+   ietf-ip:ipv4:
+    address:
+    - ip: 10.10.10.10
+      netmask: 255.255.255.255
+      
+       
 
